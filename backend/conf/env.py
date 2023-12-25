@@ -15,7 +15,7 @@ DATABASE_ENGINE = "django.db.backends.mysql"
 DATABASE_NAME = 'django-vue-admin' # mysql 时使用
 
 # 数据库地址 改为自己数据库地址
-DATABASE_HOST = os.environ.get("MYSQL_ADDRESS").split(':')[0]
+DATABASE_HOST = "10.38.105.167"
 # # 数据库端口
 DATABASE_PORT = 3306
 # # 数据库用户名
